@@ -30,7 +30,6 @@ int main(int argc, const char * argv[]) {
     int A[] = { 1, 1, 2, 3 };
     int n = sizeof(A) / sizeof(A[0]);
     printf("Ans %d", findDuplicate(A, n));
-
-
+    
     return 0;
 }
